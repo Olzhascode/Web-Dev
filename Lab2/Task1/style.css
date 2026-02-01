@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240 242 245);
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.main-block {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    max-width: 1000px;
+    padding: 20px;
+    margin-bottom: 120px;
+}
+
+
+.FacebookLogo {
+    width: 260px;
+    margin-left: -20px;
+    margin-top: -10px; 
+}
+
+.FacebookText {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 30px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.right-block {
+    background-color: white;
+    width: 400px;
+    height: 330px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(221 223 226);
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.input:focus {
+    border-color: rgb(24 119 242);
+    box-shadow: 0 0 0 2px rgb(231 243 255);
+}
+
+.login-button {
+    width: 100%;
+    background-color: rgb(24 119 242);
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.login-button:hover {
+    background-color: rgb(22 111 229);
+}
+
+
+.forgotlink {
+    display: block;
+    color: rgb(24 119 242);
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.forgotlink:hover {
+    text-decoration: underline;
+}
+
+.line {
+    border: 0;
+    border-top: 1px solid rgb(218 221 225);
+    margin: 20px 0;
+}
+
+.create-button {
+    background-color: rgb(66 183 41);
+    padding: 0 20px;
+    line-height: 48px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.create-button:hover {
+    background-color: rgb(55 163 33);
+}
+
+.create-page-link:hover {
+    color: rgb(18, 17, 17);
+}
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 400px;
+    margin-top: 85px;
+}
+
+.create-page-link{
+    text-decoration: none;
+    color: black;
+    font-size:small;
+}
+
+
+
+
+.fb-footer {
+    background-color: white;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    max-width: 980px;
+    width: 100%;
+    padding: 0 20px;
+    color: #737373;
+    font-size: 12px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #dddfe2;
+    padding-top: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #8a8d91;
+    margin-right: 20px;
+    line-height: 1.6;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    margin: 20px 0;
+    font-size: 11px;
+}
