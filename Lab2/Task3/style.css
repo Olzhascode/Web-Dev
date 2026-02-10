@@ -65,6 +65,7 @@ body {
   border-radius: 12px;
   padding: 24px;
   text-align: left;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .category h3 {
@@ -159,6 +160,7 @@ details p {
   border-radius: 12px;
   padding: 20px;
   text-align: left;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .addons h3 {
@@ -167,7 +169,7 @@ details p {
 }
 
 .addons p {
-  font-size: 14px;
+  font-size: 17px;
   color: #57606a;
   margin-bottom: 10px;
 }
