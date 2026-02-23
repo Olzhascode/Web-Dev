@@ -1,0 +1,12 @@
+<div class="product-grid">
+  @for (product of filter; track product.id) {
+    <app-product-card
+      [product]="product"
+      (delete)="handleRemove($event)">
+    </app-product-card>
+  } @empty {
+    <div class="empty">
+      <h2> Пусто :(</h2>
+    </div>
+  }
+</div>

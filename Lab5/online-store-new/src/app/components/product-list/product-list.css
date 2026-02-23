@@ -1,0 +1,24 @@
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.empty{
+  display: block !important; /* Принудительно показываем */
+  width: 100%;
+  margin: 40px auto;
+  padding: 30px;
+
+  /* Делаем яркий акцент, чтобы проверить видимость */
+  background-color: #fff3f3;
+  border: 2px dashed #ff4d4f;
+  border-radius: 12px;
+
+  /* Текст */
+  color: #ff4d4f;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}

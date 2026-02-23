@@ -1,0 +1,32 @@
+<header class="MainKaspi">
+  <h1>Kaspixpress</h1>
+</header>
+
+<main>
+  <div class="Filter">
+    <button
+      class="categories"
+      [class.active]="currnetCategory === null"
+      (click)="currnetCategory = null">
+      All
+    </button>
+
+    <button
+      class="categories"
+      *ngFor="let c of category"
+      [class.active]="currnetCategory === c.id"
+      (click)="currnetCategory = c.id">
+      {{c.name}}
+    </button>
+  </div>
+
+  <app-product-list
+    *ngIf="currnetCategory !== null"
+    [currentCategory]="currnetCategory">
+  </app-product-list>
+
+  <div *ngIf="currnetCategory === null" class="welcome">
+    <h2> 👋🏿 Добро пожаловать!</h2>
+    <p>Выберите что то</p>
+  </div>
+</main>
