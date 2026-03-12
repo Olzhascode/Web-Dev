@@ -121,7 +121,7 @@ export class ProductList {
       image: 'https://resources.cdn-kaspi.kz/img/m/p/p8e/p43/86363913.jpeg?format=gallery-medium',
       images: ['https://resources.cdn-kaspi.kz/img/m/p/p8e/p43/86363913.jpeg?format=gallery-medium'],
       link: 'https://kaspi.kz/shop/p/xpg-ax5u6000c3616g-dtlabbk-32-gb-152140797/?c=750000000',
-      likes: 34,
+      likes: 1337,
       categoryID: 1,
     },
     {

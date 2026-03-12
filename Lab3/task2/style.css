@@ -55,7 +55,9 @@ h1 { color: #555; }
     border-bottom: 1px solid #eee;
 }
 
-.todo-item:last-child { border-bottom: none; }
+.todo-item:last-child {
+    border-bottom: none; 
+    }
 
 .todo-item span {
     flex: 1;
@@ -72,7 +74,7 @@ h1 { color: #555; }
 .del-btn {
     background: transparent;
     border: none;
-    color: #d9534f;
+    color: #db1d16;
     cursor: pointer;
     font-size: 18px;
 }

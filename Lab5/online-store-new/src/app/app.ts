@@ -2,6 +2,7 @@ import {Component, Input} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import { ProductList } from './components/product-list/product-list';
 import {Category} from './models/category';
+import {Product} from './models/product';
 
 
 @Component({
@@ -18,10 +19,8 @@ export class AppComponent {
     {id: 1, name: 'Оперативка'},
     {id: 2, name: 'ГП'},
     {id: 3, name: 'ЦП'},
-    {id: 4, name: 'Материнкская плата'}
+    {id: 4, name: 'МП'}
   ];
 
   currnetCategory: number | null = null;
-
-
 }

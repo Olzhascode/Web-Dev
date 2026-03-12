@@ -34,7 +34,6 @@ todoForm.addEventListener('submit', (event) => {
   event.preventDefault();
   
   const taskText = taskInput.value.trim();
-  
   if (taskText !== '') {
     const newItem = createTodoItem(taskText);
     todoList.appendChild(newItem);

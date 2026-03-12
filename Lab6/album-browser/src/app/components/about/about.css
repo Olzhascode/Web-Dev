@@ -1,0 +1,63 @@
+.about-container {
+  max-width: 700px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #3f51b5;
+  margin-bottom: 28px;
+  font-weight: 700;
+}
+
+.info-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border-left: 4px solid #3f51b5;
+}
+
+.info-card h3 {
+  font-size: 1rem;
+  color: #3f51b5;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.info-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 4px;
+}
+
+.info-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-card ul li {
+  color: #555;
+  font-size: 0.95rem;
+  padding: 4px 0;
+  padding-left: 16px;
+  position: relative;
+}
+
+.info-card ul li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #3f51b5;
+}
+
+.info-card a {
+  color: #3f51b5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.info-card a:hover {
+  text-decoration: underline;
+}
