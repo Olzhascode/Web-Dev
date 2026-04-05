@@ -1,0 +1,270 @@
+[
+{
+    "model": "api.category",
+    "pk": 1,
+    "fields": {
+        "name": "CPU"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 2,
+    "fields": {
+        "name": "GPU"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 3,
+    "fields": {
+        "name": "RAM"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 4,
+    "fields": {
+        "name": "Motherboards"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 1,
+    "fields": {
+        "name": "Intel Core i5-13600K",
+        "price": 165000.0,
+        "description": "14 cores (6P+8E), 20 threads, up to 5.1 GHz, LGA 1700.",
+        "count": 54,
+        "is_active": true,
+        "category": 1
+    }
+},
+{
+    "model": "api.product",
+    "pk": 2,
+    "fields": {
+        "name": "Intel Core i9-14900K",
+        "price": 310000.0,
+        "description": "24 cores (8P+16E), 32 threads, up to 6.0 GHz, Extreme Gaming.",
+        "count": 34,
+        "is_active": true,
+        "category": 1
+    }
+},
+{
+    "model": "api.product",
+    "pk": 3,
+    "fields": {
+        "name": "AMD Ryzen 7 7800X3D",
+        "price": 225000.0,
+        "description": "8 cores, 16 threads, 96MB L3 Cache, 3D V-Cache Technology, AM5.",
+        "count": 87,
+        "is_active": true,
+        "category": 1
+    }
+},
+{
+    "model": "api.product",
+    "pk": 4,
+    "fields": {
+        "name": "AMD Ryzen 5 5600X",
+        "price": 75000.0,
+        "description": "6 cores, 12 threads, 3.7 GHz - 4.6 GHz, Zen 3 Architecture, AM4.",
+        "count": 114,
+        "is_active": true,
+        "category": 1
+    }
+},
+{
+    "model": "api.product",
+    "pk": 5,
+    "fields": {
+        "name": "Intel Core i7-12700K",
+        "price": 140000.0,
+        "description": "12 cores (8P+4E), 20 threads, Hybrid Architecture, LGA 1700.",
+        "count": 67,
+        "is_active": true,
+        "category": 1
+    }
+},
+{
+    "model": "api.product",
+    "pk": 6,
+    "fields": {
+        "name": "NVIDIA GeForce RTX 3060 Ti",
+        "price": 185000.0,
+        "description": "8GB GDDR6X, 256-bit, comfortable 1440p gaiming.",
+        "count": 42,
+        "is_active": true,
+        "category": 2
+    }
+},
+{
+    "model": "api.product",
+    "pk": 7,
+    "fields": {
+        "name": "NVIDIA GeForce RTX 4070 Super",
+        "price": 340000.0,
+        "description": "12GB GDDR6X, DLSS 3.5, Ray Tracing 3rd Gen, Ada Lovelace.",
+        "count": 94,
+        "is_active": true,
+        "category": 2
+    }
+},
+{
+    "model": "api.product",
+    "pk": 8,
+    "fields": {
+        "name": "AMD Radeon RX 7800 XT",
+        "price": 295000.0,
+        "description": "16GB GDDR6, 256-bit bus, RDNA 3,  high performance.",
+        "count": 59,
+        "is_active": true,
+        "category": 2
+    }
+},
+{
+    "model": "api.product",
+    "pk": 9,
+    "fields": {
+        "name": "NVIDIA GeForce RTX 4090",
+        "price": 1150000.0,
+        "description": "24GB GDDR6X, 384-bit, a flagship solution for 4K and AI workloads.",
+        "count": 7,
+        "is_active": true,
+        "category": 2
+    }
+},
+{
+    "model": "api.product",
+    "pk": 10,
+    "fields": {
+        "name": "AMD Radeon RX 6600",
+        "price": 110000.0,
+        "description": "8GB GDDR6, a cool and quiet graphics card for 1080p.",
+        "count": 0,
+        "is_active": false,
+        "category": 2
+    }
+},
+{
+    "model": "api.product",
+    "pk": 11,
+    "fields": {
+        "name": "Kingston FURY Beast 32GB",
+        "price": 298000.0,
+        "description": "DDR5, 6000MT/s, CL36, Expo & XMP Ready.",
+        "count": 21,
+        "is_active": true,
+        "category": 3
+    }
+},
+{
+    "model": "api.product",
+    "pk": 12,
+    "fields": {
+        "name": "Corsair Vengeance LPX 16GB",
+        "price": 83000.0,
+        "description": "DDR4, 3200 MHz, C16, low-profile for coolers.",
+        "count": 94,
+        "is_active": true,
+        "category": 3
+    }
+},
+{
+    "model": "api.product",
+    "pk": 13,
+    "fields": {
+        "name": "G.Skill Trident Z5 RGB 32GB",
+        "price": 329990.0,
+        "description": "DDR5, 6400 MHz, premium backlit design.",
+        "count": 31,
+        "is_active": true,
+        "category": 3
+    }
+},
+{
+    "model": "api.product",
+    "pk": 14,
+    "fields": {
+        "name": "TeamGroup T-Force Vulcan 16GB",
+        "price": 87000.0,
+        "description": "DDR4, 3600 MHz, CL18, reliable memory for AM4 systems.",
+        "count": 35,
+        "is_active": true,
+        "category": 3
+    }
+},
+{
+    "model": "api.product",
+    "pk": 15,
+    "fields": {
+        "name": "Crucial Pro 32GB Kit",
+        "price": 305980.0,
+        "description": "DDR5, 5600MT/s, Plug-and-Play performance.",
+        "count": 70,
+        "is_active": true,
+        "category": 3
+    }
+},
+{
+    "model": "api.product",
+    "pk": 16,
+    "fields": {
+        "name": "ASUS ROG STRIX B760-F",
+        "price": 125000.0,
+        "description": "LGA 1700, DDR5, PCIe 5.0, Wi-Fi 6E, high-power supply.",
+        "count": 17,
+        "is_active": true,
+        "category": 4
+    }
+},
+{
+    "model": "api.product",
+    "pk": 17,
+    "fields": {
+        "name": "MSI MAG B650 TOMAHAWK",
+        "price": 105000.0,
+        "description": "AM5 socket, DDR5, excellent VRM heatsink, 2.5G LAN.",
+        "count": 94,
+        "is_active": true,
+        "category": 4
+    }
+},
+{
+    "model": "api.product",
+    "pk": 18,
+    "fields": {
+        "name": "Gigabyte Z790 AORUS ELITE",
+        "price": 145000.0,
+        "description": "LGA 1700, DDR5, 4 M.2 ports, support for 14th Gen Intel processors.",
+        "count": 54,
+        "is_active": true,
+        "category": 4
+    }
+},
+{
+    "model": "api.product",
+    "pk": 19,
+    "fields": {
+        "name": "ASRock B550M Pro4",
+        "price": 55000.0,
+        "description": "Socket AM4, Micro ATXЧa proven solution for Ryzen 5000.",
+        "count": 29,
+        "is_active": true,
+        "category": 4
+    }
+},
+{
+    "model": "api.product",
+    "pk": 20,
+    "fields": {
+        "name": "ASUS Prime Z790-P",
+        "price": 115000.0,
+        "description": "An entry-level motherboard based on a high-end chipset, with DDR5 support.",
+        "count": 7,
+        "is_active": true,
+        "category": 4
+    }
+}
+]
