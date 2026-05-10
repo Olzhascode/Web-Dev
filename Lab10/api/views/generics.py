@@ -1,5 +1,3 @@
-from idlelib.debugger_r import frametable
-
 from rest_framework import generics
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -37,3 +35,4 @@ class CategoryProductsAPIView(APIView):
         products = category.products.all()
         serializer = SerializerProduct(products, many=True)
         return Response(serializer.data)
+

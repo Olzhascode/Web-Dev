@@ -1,20 +1,20 @@
-from models import Hoverboard, Rocket
+from models import Airplane, Rocket
+
 
 def main():
-    # Creating a list of different objects
-    garage = [
-        Hoverboard("Fly-Board Pro", 50, 2),
+    transport = [
+        Airplane("Boeing 747", 900, 10000),
         Rocket("Starship-X", 28000, "Mars")
     ]
 
-    print("Test")
-    for unit in garage:
+    for unit in transport:
         print(unit)
         print(unit.move())
 
         if isinstance(unit, Rocket):
             print(unit.launch())
-        print("-" * 20)
+
+        print("\n")
 
 
 if __name__ == "__main__":

@@ -1,3 +1,5 @@
+from itertools import product
+
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
@@ -40,9 +42,6 @@ def product_detail(request, product_id):
     if request == 'DELETE':
         product.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
-
-
-
 
 
 
